@@ -1,3 +1,9 @@
+/**
+* @file course.h
+* @brief Course header file. Stores essential features.
+* @author John Dolan
+*/
+
 /***********************************************************************8
 	This class stores the three essential features of a completed 
 	college course: the course number, the grade received, and the 

@@ -1,3 +1,9 @@
+/**
+* @file node.h
+* @brief Node class file.
+* @author John Dolan
+*/
+
 /*************************************************************************
       This file is borrowed heavily from Main/Savitch "Data Structures and
       Other Object Using C++," Chapter 5. It features a node class that 

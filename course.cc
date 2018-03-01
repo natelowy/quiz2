@@ -1,8 +1,9 @@
-/***********************************************************************
-	The implementation file for course.h, which describes a college
-	course.
-		John Dolan		School of EECS		Summer2013
-**************************************************************************/
+/**
+* @file course.cc
+* @brief The implementation file for course.h, which describes a college course.
+* @author John Dolan
+*/
+
 #include "course.h"
 #include<cstdlib>
 #include<iostream>

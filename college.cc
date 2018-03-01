@@ -1,9 +1,11 @@
-//********************
-//Matthew Aberegg
-//Project 3
-//CS 2401
-//10/8/2015
-//********************
+/**
+* @file college.cc
+* @brief College function implementations
+* @author Matthew Aberegg
+* Project 3
+* CS 2401
+* 10/8/2015
+*/
 #include "college.h"
 #include<cstdlib>
 #include<iostream>
@@ -107,6 +109,11 @@ void College::add(course& c){
 	}
 }
 
+/**
+*Removes a course via user-chosen string from the singularly-linked list
+*@param coursename
+*@return void
+*/
 void College::remove(std::string coursename){
 	node * previous;	
 	node * cursor;
@@ -129,6 +136,11 @@ void College::remove(std::string coursename){
 }
 }
 
+/**
+*Displays the course list, with course number, grade, and hours. 
+*@param outs
+*@return void
+*/
 void College::display(std::ostream& outs){
 	node * ptr;
 	ptr = head;
@@ -144,7 +156,11 @@ void College::display(std::ostream& outs){
 	outs << "\n";
 }
 
-
+/**
+*Gathers the total number of hours in the list
+*@param none
+*@return hours
+*/
 double College::hours(){
 	node * ptr;
 	ptr = head;
